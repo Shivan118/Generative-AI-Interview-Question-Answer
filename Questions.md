@@ -322,6 +322,18 @@ Retrieval systems play a vital role in applications like search engines, chatbot
 
 ---
 
+## ⚖️ When to Use Which?
+
+| Use Case                                   | Best Choice         |
+|-------------------------------------------|----------------------|
+| Exact matching, fast search                | ✅ Sparse Retriever   |
+| Conversational Q&A, semantic understanding | ✅ Dense Retriever    |
+| You want the best of both worlds           | ✅ Hybrid Retriever   |
+
+Hybrid retrievers combine sparse and dense approaches, often providing a good balance between precision and semantic recall.
+
+---
+
 ## 💡 Summary
 
 | Use Case                  | Recommended Retriever       |
@@ -347,19 +359,4 @@ Choose based on your application’s complexity, domain, and available resources
 
 ---
 
-Feel free to ⭐ the repo if this helped you!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 5. 
